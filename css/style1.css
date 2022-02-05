@@ -1,0 +1,105 @@
+* {
+
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-family : "Poppins";
+
+
+
+}
+.content {
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+.menu {
+
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin: 10px 0px 20px 20pxs;
+
+
+}
+
+.perso {
+    width: 20%;
+    height: 90px;
+    width: 380px;
+    background-color: #334e6973;
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    
+}
+
+
+.perso .right {
+
+    font-size: 1.2em;
+    font-weight: 400;
+
+
+}
+
+.perso .left {
+
+    height: 100%;
+    width: 90px;
+    background-color: #0d1925;
+}
+
+
+.menu:nth-child(1).perso .left {
+
+    background-image: url(../img/Ass1.png);
+    background-size: cover;
+}
+
+.menu:nth-child(2).perso .left {
+
+    background-image: url(../img/Ass1.png);
+    background-size: cover;
+}
+.menu:nth-child(3).perso .left {
+
+    background-image: url(../img/Ass1.png);
+    background-size: cover;
+}
+.menu:nth-child(4).perso .left {
+
+    background-image: url(../img/Ass1.png);
+    background-size: cover;
+}
+
+.perso .right h1 {
+
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-left: 20px;
+
+
+}
+
+.perso-bg {
+    position: absolute;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    left: 20%;
+}

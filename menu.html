@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Menu </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app"></div>
+    <embed
+      name="GoodEnough"
+      src="audio/Konoha peace ost.mp3"
+      loop="false"
+      hidden="true"
+      autostart="true"
+    />
+    <button>
+        <a href="index.html">P L A Y</a> 
+    </button>
+    <div class="content">
+        <div class="menu active">
+            <div class="perso">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Melvin Uchiwa</h1>
+                </div>
+            </div>
+            <div class="perso-bg">
+                <img src="img/melvinuchiwa.png" height="700px">
+            </div>
+                
+        </div>
+        <div class="menu">
+            <div class="perso">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Hoshigaki Eric</h1>
+                </div>
+            </div>
+            <div class="perso-bg">
+                <img src="img/Hoshigaki-ERIC.png" height="700px">
+            </div>
+                
+        </div>
+        <div class="menu">
+            <div class="perso">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Deidara Kiki</h1>
+                </div>
+            </div>
+            <div class="perso-bg">
+                <img src="img/Kyllian-deidara.png" height="700px">
+            </div>
+                
+        </div>
+        <div class="menu">
+            <div class="perso">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Sasori Kevin</h1>
+                </div>
+            </div>
+            <div class="perso-bg">
+                <img src="img/sasori-Kevin.png" height="700px">
+            </div>
+                
+        </div>
+        
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      $(document).on("click", ".menu", function () {
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
+
+
+
+</body>
+</html>

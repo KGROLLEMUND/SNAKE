@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: "Poppins";
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/akatsuki-bg2.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin: 10px 0px 20px 20px;
+
+}
+
+.perso {
+    width: 20%;
+    height: 90px;
+    width: 380px;
+    background-color: #334e6973;
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 2px solid rgb(71, 71, 71);
+    transition: 0.2s;
+    cursor: pointer;
+    
+}
+
+.perso:hover {
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px white, inset 0px 0px 10px white;
+
+}
+
+
+.perso .left {
+    height: 100%;
+    width: 90px;
+    background-color: #0d1925;
+}
+
+.menu:nth-child(1) .perso .left {
+    background-image: url(../img/melvinuchiwa.png);
+    background-size: cover;
+}
+.menu:nth-child(2) .perso .left {
+    background-image: url(../img/Hoshigaki-ERIC.png);
+    background-size: cover;
+}
+.menu:nth-child(3) .perso .left {
+    background-image: url(../img/Kyllian-deidara.png);
+    background-size: cover;
+}
+.menu:nth-child(4) .perso .left {
+    background-image: url(../img/sasori-Kevin.png);
+    background-size: cover;
+}
+
+.perso .right h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+
+.perso-bg {
+    position: absolute;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    left: 20%;
+    
+}
+
+.perso-bg img {
+    display: none;
+}
+
+.active .perso-bg img {
+    display: block;
+}
